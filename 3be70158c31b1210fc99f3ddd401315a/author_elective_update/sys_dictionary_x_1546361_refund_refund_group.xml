@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="group" table="x_1546361_refund_refund">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Group</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1546361_refund_refund</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 15:12:16</sys_created_on>
+        <sys_id>c679519cc35b1210fc99f3ddd4013155</sys_id>
+        <sys_name>Group</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>sys_dictionary_x_1546361_refund_refund_group</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 15:12:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">3be70158c31b1210fc99f3ddd401315a</application>
+        <file_path/>
+        <instance_id>64d4f8551b06b11cc84543f4bd4bcb25</instance_id>
+        <instance_name>dev192592</instance_name>
+        <name>sys_dictionary_x_1546361_refund_refund_group</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="group" table="x_1546361_refund_refund"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Group</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>group</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1546361_refund_refund</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user_group">sys_user_group</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 15:12:16</sys_created_on><sys_id>c679519cc35b1210fc99f3ddd4013155</sys_id><sys_name>Group</sys_name><sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package><sys_policy/><sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope><sys_update_name>sys_dictionary_x_1546361_refund_refund_group</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 15:12:20</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1239101439</payload_hash>
+        <record_name>Refund.Group</record_name>
+        <reverted_from/>
+        <source>84bb81d8c31b1210fc99f3ddd4013185</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 15:12:21</sys_created_on>
+        <sys_id>5b79d19cc35b1210fc99f3ddd401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948445991e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 15:12:21</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>1379d19c6e5b1210f422ec3179f4097c</update_guid>
+        <update_guid_history>1379d19c6e5b1210f422ec3179f4097c:1239101439,1a79519c765b121015fd6f2b0b5ee49a:851774340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 15:12:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1771e45005d548f0b09185443c9c8f10</sys_id>
+        <sys_metadata>c679519cc35b1210fc99f3ddd4013155</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Group</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_parent display_value="Refund">4017dd98c35b1210fc99f3ddd4013166</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_scope_delete display_value="">05818295f019426e8abbcb096fbb35e1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1546361_refund_refund_group</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1546361_refund_refund_group">5b79d19cc35b1210fc99f3ddd401317c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 15:12:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
