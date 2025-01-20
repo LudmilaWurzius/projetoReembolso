@@ -25,7 +25,7 @@
         <image/>
         <location/>
         <make_item_non_conversational>false</make_item_non_conversational>
-        <mandatory_attachment>false</mandatory_attachment>
+        <mandatory_attachment>true</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 16:47:53</sys_created_on>
         <sys_id>6e5f2118c3db1210fc99f3ddd4013149</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Refund Request</sys_name>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
         <sys_update_name>sc_cat_item_producer_6e5f2118c3db1210fc99f3ddd4013149</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-20 16:56:21</sys_updated_on>
+        <sys_updated_on>2025-01-20 17:42:41</sys_updated_on>
         <table_name>x_1546361_refund_refund</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>7</version>
+        <version>25</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -169,4 +169,15 @@
         <sys_created_on>2025-01-20 16:49:30</sys_created_on>
         <sys_id>12bfa1d4c3db1210fc99f3ddd40131cf</sys_id>
     </sys_attachment_doc>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6e5f2118c3db1210fc99f3ddd4013149</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 17:17:37</sys_created_on>
+        <sys_id>d226b510c31f1210fc99f3ddd4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 17:17:37</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
