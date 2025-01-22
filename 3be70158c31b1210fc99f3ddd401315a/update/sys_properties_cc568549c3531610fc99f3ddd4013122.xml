@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description> Currency integration Endpoint</description>
+        <description>Currency integration failure retry count</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_1546361_refund.intagration_endpoit</name>
+        <name>x_1546361_refund.integration_retry_count</name>
         <read_roles/>
-        <suffix>intagration_endpoit</suffix>
+        <suffix>integration_retry_count</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-22 14:59:07</sys_created_on>
-        <sys_id>8849ebf4c39bd210fc99f3ddd40131df</sys_id>
+        <sys_created_on>2025-01-22 21:44:01</sys_created_on>
+        <sys_id>cc568549c3531610fc99f3ddd4013122</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_1546361_refund.intagration_endpoit</sys_name>
+        <sys_name>x_1546361_refund.integration_retry_count</sys_name>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
-        <sys_update_name>sys_properties_8849ebf4c39bd210fc99f3ddd40131df</sys_update_name>
+        <sys_update_name>sys_properties_cc568549c3531610fc99f3ddd4013122</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 21:47:34</sys_updated_on>
-        <type>string</type>
-        <value>https://api.freecurrencyapi.com/v1/latest</value>
+        <sys_updated_on>2025-01-22 21:49:00</sys_updated_on>
+        <type>integer</type>
+        <value>3</value>
         <write_roles/>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=8849ebf4c39bd210fc99f3ddd40131df"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc568549c3531610fc99f3ddd4013122"/>
 </record_update>
