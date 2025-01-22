@@ -2,21 +2,21 @@
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
         <angular_module/>
-        <formatter>state_formater</formatter>
-        <name>State Formater</name>
+        <formatter>state_refund</formatter>
+        <name>State Refund</name>
         <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 14:08:03</sys_created_on>
-        <sys_id>a1441ea4c3539210fc99f3ddd40131bb</sys_id>
+        <sys_created_on>2025-01-21 22:54:55</sys_created_on>
+        <sys_id>a3ccc8b8c39b9210fc99f3ddd401317f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>State Formater</sys_name>
+        <sys_name>State Refund</sys_name>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
-        <sys_update_name>sys_ui_formatter_a1441ea4c3539210fc99f3ddd40131bb</sys_update_name>
+        <sys_update_name>sys_ui_formatter_a3ccc8b8c39b9210fc99f3ddd401317f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 14:08:03</sys_updated_on>
+        <sys_updated_on>2025-01-21 22:54:55</sys_updated_on>
         <table>x_1546361_refund_refund</table>
         <type>formatter</type>
     </sys_ui_formatter>

@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-21 14:03:06</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 14:13:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>cd951e28c3539210fc99f3ddd4013174</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1546361_refund_refund" name="x_1546361_refund_refund" sys_domain="global" view="Default view">2a335a64c3539210fc99f3ddd40131e3</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1546361_refund_refund" sys_domain="global" view="Default view">01951e28c3539210fc99f3ddd4013173</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 14:13:22</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1546361_refund_refund</name>
             <roles/>

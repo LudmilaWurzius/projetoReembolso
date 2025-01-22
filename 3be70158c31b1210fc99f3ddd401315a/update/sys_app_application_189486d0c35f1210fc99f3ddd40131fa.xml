@@ -7,14 +7,14 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles>admin,x_1546361_refund.admin,x_1546361_refund.manager,x_1546361_refund.user</roles>
+        <roles>admin,x_1546361_refund.admin,x_1546361_refund.manager,x_1546361_refund.user,x_1546361_refund.resolvers</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 18:20:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>189486d0c35f1210fc99f3ddd40131fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Refund</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
         <sys_update_name>sys_app_application_189486d0c35f1210fc99f3ddd40131fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 18:26:46</sys_updated_on>
+        <sys_updated_on>2025-01-21 17:53:50</sys_updated_on>
         <title>Refund</title>
         <view_name/>
     </sys_app_application>
