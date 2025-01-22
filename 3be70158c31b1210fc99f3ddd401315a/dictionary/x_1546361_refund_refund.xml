@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4017dd98c35b1210fc99f3ddd4013166" extends="task" label="Refund" max_length="40" name="x_1546361_refund_refund" type="collection">
         <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
-        <element label="Refund Amount" max_length="38" name="refund_amount" type="currency"/>
+        <element label="Refund Amount" max_length="40" name="refund_amount" type="float"/>
+        <element label="Refund Amount (USD)" max_length="40" name="refund_amount_usd" type="float"/>
         <element label="Rejection Reason" max_length="1000" name="rejection_reason" type="string"/>
         <element label="Category" max_length="32" name="category" reference="x_1546361_refund_category" type="reference"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
-        <element label="Refund Amount (USD)" max_length="38" name="refund_amount_usd" type="currency"/>
         <element label="Approval Manager" max_length="32" name="approval_manager" reference="sysapproval_approver" type="reference"/>
     </element>
 </database>

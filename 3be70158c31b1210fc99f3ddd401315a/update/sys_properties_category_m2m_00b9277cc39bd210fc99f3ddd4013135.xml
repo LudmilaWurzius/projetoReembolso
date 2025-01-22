@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Refund">ac87eb3cc39bd210fc99f3ddd4013137</category>
+        <order>100</order>
+        <property display_value="x_1546361_refund.intagration_endpoit" name="x_1546361_refund.intagration_endpoit">8849ebf4c39bd210fc99f3ddd40131df</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:59:19</sys_created_on>
+        <sys_id>00b9277cc39bd210fc99f3ddd4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1546361_refund.intagration_endpoit.Refund</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_00b9277cc39bd210fc99f3ddd4013135</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:59:19</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

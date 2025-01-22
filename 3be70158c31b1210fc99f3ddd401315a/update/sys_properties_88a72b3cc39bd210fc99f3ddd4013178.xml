@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1546361_refund.integration_apikey</name>
+        <read_roles/>
+        <suffix>integration_apikey</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:51:36</sys_created_on>
+        <sys_id>88a72b3cc39bd210fc99f3ddd4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1546361_refund.integration_apikey</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>sys_properties_88a72b3cc39bd210fc99f3ddd4013178</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:51:36</sys_updated_on>
+        <type>string</type>
+        <value>fca_live_8SYCpZA4C58ADwWow1G3bA4kZ9A86nzLzxRAEmrq</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=88a72b3cc39bd210fc99f3ddd4013178"/>
+</record_update>
