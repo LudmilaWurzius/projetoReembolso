@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>state_refund</formatter>
+        <name>State Refund</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 22:54:55</sys_created_on>
+        <sys_id>a3ccc8b8c39b9210fc99f3ddd401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State Refund</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>sys_ui_formatter_a3ccc8b8c39b9210fc99f3ddd401317f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 22:54:55</sys_updated_on>
+        <table>x_1546361_refund_refund</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">3be70158c31b1210fc99f3ddd401315a</application>
+        <file_path/>
+        <instance_id>64d4f8551b06b11cc84543f4bd4bcb25</instance_id>
+        <instance_name>dev192592</instance_name>
+        <name>sys_ui_formatter_a3ccc8b8c39b9210fc99f3ddd401317f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>state_refund</formatter><name>State Refund</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 22:54:55</sys_created_on><sys_id>a3ccc8b8c39b9210fc99f3ddd401317f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>State Refund</sys_name><sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package><sys_policy/><sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope><sys_update_name>sys_ui_formatter_a3ccc8b8c39b9210fc99f3ddd401317f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 22:54:55</sys_updated_on><table>x_1546361_refund_refund</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>-679820192</payload_hash>
+        <record_name>State Refund</record_name>
+        <reverted_from/>
+        <source>84bb81d8c31b1210fc99f3ddd4013185</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 22:54:55</sys_created_on>
+        <sys_id>3cfcccb8c39b9210fc99f3ddd40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948b1373070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 22:54:55</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>30fcccb8499b92109bb5e2f09ce269f5</update_guid>
+        <update_guid_history>30fcccb8499b92109bb5e2f09ce269f5:-679820192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 13:14:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>1b0c19a370f841e88f8c6e2b24fa7279</sys_id>
+        <sys_metadata>a3ccc8b8c39b9210fc99f3ddd401317f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State Refund</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_parent display_value="Refund">4017dd98c35b1210fc99f3ddd4013166</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_scope_delete display_value="">05818295f019426e8abbcb096fbb35e1</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_a3ccc8b8c39b9210fc99f3ddd401317f</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_a3ccc8b8c39b9210fc99f3ddd401317f">3cfcccb8c39b9210fc99f3ddd40131f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 13:14:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

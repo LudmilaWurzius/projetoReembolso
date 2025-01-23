@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>assignment_group</field>
+        <name>Refund Metric</name>
+        <number>MTRC0010005</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 19:31:00</sys_created_on>
+        <sys_id>6431bd15c31b5610fc99f3ddd401317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund Metric</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>metric_definition_6431bd15c31b5610fc99f3ddd401317a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 19:31:00</sys_updated_on>
+        <table>x_1546361_refund_refund</table>
+        <timeline>false</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6431bd15c31b5610fc99f3ddd401317a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 19:31:00</sys_created_on>
+        <sys_id>dd713d15c31b5610fc99f3ddd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 19:31:00</sys_updated_on>
+        <table>metric_definition</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

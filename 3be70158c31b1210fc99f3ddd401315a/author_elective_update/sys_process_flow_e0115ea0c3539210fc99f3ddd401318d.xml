@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1546361_refund_refund">state=3^EQ<item display_value="Approved / Awaiting Payment" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Approved / Awaiting Payment</label>
+        <name>Approved / Awaiting Payment</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:53:40</sys_created_on>
+        <sys_id>e0115ea0c3539210fc99f3ddd401318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved / Awaiting Payment</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>sys_process_flow_e0115ea0c3539210fc99f3ddd401318d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:53:40</sys_updated_on>
+        <table>x_1546361_refund_refund</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">3be70158c31b1210fc99f3ddd401315a</application>
+        <file_path/>
+        <instance_id>64d4f8551b06b11cc84543f4bd4bcb25</instance_id>
+        <instance_name>dev192592</instance_name>
+        <name>sys_process_flow_e0115ea0c3539210fc99f3ddd401318d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1546361_refund_refund">state=3^EQ<item display_value="Approved / Awaiting Payment" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Approved / Awaiting Payment</label><name>Approved / Awaiting Payment</name><order>400</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 13:53:40</sys_created_on><sys_id>e0115ea0c3539210fc99f3ddd401318d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approved / Awaiting Payment</sys_name><sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package><sys_policy/><sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope><sys_update_name>sys_process_flow_e0115ea0c3539210fc99f3ddd401318d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 13:53:40</sys_updated_on><table>x_1546361_refund_refund</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>1555628011</payload_hash>
+        <record_name>Approved / Awaiting Payment</record_name>
+        <reverted_from/>
+        <source>84bb81d8c31b1210fc99f3ddd4013185</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:53:40</sys_created_on>
+        <sys_id>24115ea0c3539210fc99f3ddd401318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948923ecaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:53:40</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>28115ea05853921094fb429c4064628e</update_guid>
+        <update_guid_history>28115ea05853921094fb429c4064628e:1555628011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 13:13:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>19687f4bcb624687af06fa7e73a5f011</sys_id>
+        <sys_metadata>e0115ea0c3539210fc99f3ddd401318d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved / Awaiting Payment</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_scope_delete display_value="">05818295f019426e8abbcb096fbb35e1</sys_scope_delete>
+        <sys_update_name>sys_process_flow_e0115ea0c3539210fc99f3ddd401318d</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_e0115ea0c3539210fc99f3ddd401318d">24115ea0c3539210fc99f3ddd401318f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 13:13:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

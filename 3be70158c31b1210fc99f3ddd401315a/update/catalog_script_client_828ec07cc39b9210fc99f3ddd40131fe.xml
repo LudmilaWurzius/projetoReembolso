@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Refund Request">6e5f2118c3db1210fc99f3ddd4013149</cat_item>
-        <cat_variable>IO:0c763550c31f1210fc99f3ddd40131ea</cat_variable>
+        <cat_variable>IO:2bbcd599c3975610fc99f3ddd40131e7</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -22,33 +22,31 @@
     if (isLoading || newValue === '') {
         return;
     }
-    // Obtém a data de hoje em formato 'YYYY-MM-DD'
+    
     var today = new Date();
-    today.setHours(0, 0, 0, 0); // Zera a hora da data de hoje
-    var todayString = today.toISOString().split('T')[0]; // Formata para 'YYYY-MM-DD'
+    today.setHours(0, 0, 0, 0);
+    var todayString = today.toISOString().split('T')[0];
 
-    // Obtém a data selecionada do campo 'expense_date'
     var selectedDate = newValue;
 
-    // Compara as datas
     if (selectedDate > todayString) {
         g_form.addErrorMessage("You cannot insert a record with the current or future date! Please select a valid date.");
-        g_form.setValue("expense_date", ""); // Limpa o campo de data
+        g_form.setValue("expense_date", ""); 
     } else if (selectedDate === todayString) {
-        g_form.addErrorMessage("Oops! It looks like you've picked today's date. Please select a different date.");
-        g_form.setValue("expense_date", ""); // Limpa o campo de data
+        g_form.addErrorMessage("You cannot insert a record with the current or future date! Please select a valid date.");
+        g_form.setValue("expense_date", ""); 
     } else {
-        g_form.clearMessages(); // Limpa mensagens de erro se houver
-    }
-}
-]]></script>
+        g_form.clearMessages(); 
+	}
+
+}]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 23:07:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>828ec07cc39b9210fc99f3ddd40131fe</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Future Date Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
@@ -56,7 +54,7 @@
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
         <sys_update_name>catalog_script_client_828ec07cc39b9210fc99f3ddd40131fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 23:43:11</sys_updated_on>
+        <sys_updated_on>2025-01-23 18:14:39</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
