@@ -23,17 +23,16 @@
         return;
     }
 
-    // Regex para validar números (com ou sem casas decimais)
     var regex = /^\d+(\.\d{1,2})?$/;
 
     if (!regex.test(newValue)) {
         g_form.showFieldMsg(
-            'refund_amount', // Nome técnico do campo
-            'Por favor, insira um valor numérico válido (exemplo: 100 ou 100.50).',
+            'refund_amount', 
+            'Please enter a valid numeric value (example: 100 or 100.50).',
             'error'
         );
     } else {
-        g_form.hideFieldMsg('refund_amount', true); // Remove mensagens ao corrigir o valor
+        g_form.hideFieldMsg('refund_amount', true); 
     }
 }
 ]]></script>
@@ -43,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62c3ad61c39b9610fc99f3ddd401314f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Refund Amout Validad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
@@ -51,7 +50,7 @@
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
         <sys_update_name>catalog_script_client_62c3ad61c39b9610fc99f3ddd401314f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 13:10:36</sys_updated_on>
+        <sys_updated_on>2025-01-24 16:46:11</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
