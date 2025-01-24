@@ -22,31 +22,32 @@
     if (isLoading || newValue === '') {
         return;
     }
-    
     var today = new Date();
-    today.setHours(0, 0, 0, 0);
-    var todayString = today.toISOString().split('T')[0];
+    today.setHours(0, 0, 0, 0); 
+    today = new Date(today.getTime() - (3 * 60 * 60 * 1000));
 
-    var selectedDate = newValue;
+    
+    var todayString = today.toISOString().split('T')[0]; 
 
-    if (selectedDate > todayString) {
-        g_form.addErrorMessage("You cannot insert a record with the current or future date! Please select a valid date.");
-        g_form.setValue("expense_date", ""); 
-    } else if (selectedDate === todayString) {
+    var dateParts = newValue.split('/');
+    var selectedDate = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]);
+    selectedDate.setHours(0, 0, 0, 0); 
+
+    if (selectedDate >= today) {
         g_form.addErrorMessage("You cannot insert a record with the current or future date! Please select a valid date.");
         g_form.setValue("expense_date", ""); 
     } else {
         g_form.clearMessages(); 
-	}
-
-}]]></script>
+    }
+}
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 23:07:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>828ec07cc39b9210fc99f3ddd40131fe</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Future Date Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
@@ -54,7 +55,7 @@
         <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
         <sys_update_name>catalog_script_client_828ec07cc39b9210fc99f3ddd40131fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 18:14:39</sys_updated_on>
+        <sys_updated_on>2025-01-24 15:34:57</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

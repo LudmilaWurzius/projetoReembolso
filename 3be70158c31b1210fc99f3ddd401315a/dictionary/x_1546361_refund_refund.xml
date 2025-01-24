@@ -6,6 +6,7 @@
         <element label="Rejection Reason" max_length="1000" name="rejection_reason" type="string"/>
         <element label="Category" max_length="32" name="category" reference="x_1546361_refund_category" type="reference"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
-        <element label="Approval Manager" max_length="32" name="approval_manager" reference="sysapproval_approver" type="reference"/>
+        <element label="Reproval Reason" max_length="1000" name="reproval_reason" type="string"/>
+        <element label="Approval Manager" max_length="32" name="approval_manager" reference="sys_user" type="reference"/>
     </element>
 </database>

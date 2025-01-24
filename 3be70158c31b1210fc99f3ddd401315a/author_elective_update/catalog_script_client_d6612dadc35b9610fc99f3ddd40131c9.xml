@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Refund Request">6e5f2118c3db1210fc99f3ddd4013149</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Field Refund Amount</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Define a regex para validar números (com ou sem casas decimais)
+    var regex = /^\d+(\.\d{1,2})?$/;
+
+    // Valida o valor inserido
+    if (!regex.test(newValue)) {
+        g_form.showFieldMsg(
+            'refund_amount', // Nome do campo
+            'Por favor, insira um valor numérico válido (exemplo: 100 ou 100.50).',
+            'error'
+        );
+    } else {
+        // Remove mensagens de erro caso o valor seja válido
+        g_form.clearMessages();
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:00:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6612dadc35b9610fc99f3ddd40131c9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Field Refund Amount</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_update_name>catalog_script_client_d6612dadc35b9610fc99f3ddd40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:04:52</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="DELETE">
+        <id>d6612dadc35b9610fc99f3ddd40131c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:00:01</sys_created_on>
+        <sys_id>b781e96dc35b9610fc99f3ddd401313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:00:01</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">3be70158c31b1210fc99f3ddd401315a</application>
+        <file_path/>
+        <instance_id>64d4f8551b06b11cc84543f4bd4bcb25</instance_id>
+        <instance_name>dev192592</instance_name>
+        <name>catalog_script_client_d6612dadc35b9610fc99f3ddd40131c9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Refund Request"&gt;6e5f2118c3db1210fc99f3ddd4013149&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Field Refund Amount&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Define a regex para validar números (com ou sem casas decimais)
+    var regex = /^\d+(\.\d{1,2})?$/;
+
+    // Valida o valor inserido
+    if (!regex.test(newValue)) {
+        g_form.showFieldMsg(
+            'refund_amount', // Nome do campo
+            'Por favor, insira um valor numérico válido (exemplo: 100 ou 100.50).',
+            'error'
+        );
+    } else {
+        // Remove mensagens de erro caso o valor seja válido
+        g_form.clearMessages();
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-24 13:00:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d6612dadc35b9610fc99f3ddd40131c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Field Refund Amount&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund" source="x_1546361_refund"&gt;3be70158c31b1210fc99f3ddd401315a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund"&gt;3be70158c31b1210fc99f3ddd401315a&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_d6612dadc35b9610fc99f3ddd40131c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-24 13:04:52&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d6612dadc35b9610fc99f3ddd40131c9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-24 13:00:01&lt;/sys_created_on&gt;&lt;sys_id&gt;b781e96dc35b9610fc99f3ddd401313e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-24 13:00:01&lt;/sys_updated_on&gt;&lt;table&gt;catalog_script_client&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1359760757</payload_hash>
+        <record_name>Field Refund Amount</record_name>
+        <reverted_from/>
+        <source>84bb81d8c31b1210fc99f3ddd4013185</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:04:52</sys_created_on>
+        <sys_id>72a26521c39b9610fc99f3ddd40131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194986a53610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:04:52</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>f6a26521399b96109d287a4799acfbf6</update_guid>
+        <update_guid_history>f6a26521399b96109d287a4799acfbf6:-1359760757,0da26521039b9610f968b27a83057511:-1179981412,bf81edad7d5b9610fff104bfd861324a:1023926301</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Field Refund Amount">bb236921c39b9610fc99f3ddd40131ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:07:07</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>4a71afe7588c475c8760285c82ee4404</sys_id>
+        <sys_metadata>d6612dadc35b9610fc99f3ddd40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Refund Amount</sys_name>
+        <sys_package display_value="Refund" source="x_1546361_refund">3be70158c31b1210fc99f3ddd401315a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3be70158c31b1210fc99f3ddd401315a</sys_scope>
+        <sys_scope_delete display_value="">05818295f019426e8abbcb096fbb35e1</sys_scope_delete>
+        <sys_update_name>catalog_script_client_d6612dadc35b9610fc99f3ddd40131c9</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_d6612dadc35b9610fc99f3ddd40131c9">72a26521c39b9610fc99f3ddd40131f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:07:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
